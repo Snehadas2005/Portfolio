@@ -2,8 +2,6 @@
 
 A modern, interactive portfolio website showcasing Sneha Das's web development skills, experience, and projects.
 
-![Portfolio Preview](public/images/portfolio-preview.png)
-
 ## 🌟 Features
 
 * **Interactive 3D Elements** - Engaging Three.js models throughout the site
