@@ -23,20 +23,51 @@ A modern, interactive portfolio website showcasing Sneha Das's web development s
 ## 📋 Project Structure
 
 ```
-📦 sneha-das-portfolio/
- ┣ 📂 public/
- ┃ ┣ 📂 images/
- ┃ ┣ 📂 models/      # 3D models (.glb files)
- ┃ ┗ 📄 index.html
- ┣ 📂 src/
- ┃ ┣ 📂 components/  # Reusable UI components
- ┃ ┣ 📂 sections/    # Main page sections
- ┃ ┣ 📂 constants/   # Project data & configuration
- ┃ ┣ 📄 App.jsx      # Main application component
- ┃ ┣ 📄 main.jsx     # Entry point
- ┃ ┗ 📄 index.css    # Global styles & Tailwind config
- ┣ 📄 package.json
- ┗ 📄 README.md
+portfolio-3d/
+├── node_modules/                    # Node.js dependencies
+├── public/                          # Static assets
+│   ├── images/                      # Image resources
+│   ├── models/                      # 3D model files
+│   └── vite.svg                     # Vite logo
+├── src/                             # Source code
+│   ├── components/                  # React components
+│   │   ├── hero_models/             # Hero section 3D components
+│   │   │   ├── HeroExperience.jsx   # Main hero experience component
+│   │   │   ├── HeroLights.jsx       # Lighting for hero models
+│   │   │   └── Room.jsx             # 3D room component
+│   │   └── models/                  # Other 3D model components
+│   │       ├── contact/             # Contact section models
+│   │       │   ├── Computer.jsx     # Computer 3D model
+│   │       │   └── ContactExperience.jsx  # Contact section experience
+│   │       └── tech_logos/          # Technology logos components
+│   │           └── TechIconCardExperience.jsx  # Tech stack showcase
+│   ├── components/                  # Common UI components
+│   │   ├── AnimatedCounter.jsx      # Animated numerical counter
+│   │   ├── Button.jsx               # Custom button component
+│   │   ├── GlowCard.jsx             # Card with glow effect
+│   │   ├── NavBar.jsx               # Navigation bar component
+│   │   ├── TitleHeader.jsx          # Page title component
+│   │   └── Optimized-room.jsx       # Optimized version of Room component
+│   ├── constants/                   # App constants and configuration
+│   │   └── index.js                 # Constants definitions
+│   ├── sections/                    # Page sections
+│   │   ├── Achievements.jsx         # Achievements section
+│   │   ├── Contact.jsx              # Contact section
+│   │   ├── Experience.jsx           # Experience showcase section
+│   │   ├── FeatureCards.jsx         # Featured projects cards
+│   │   ├── Footer.jsx               # Page footer section
+│   │   ├── Hero.jsx                 # Hero/landing section
+│   │   ├── ShowcaseSection.jsx      # Projects showcase section
+│   │   └── TechStack.jsx            # Technology stack section
+│   ├── App.jsx                      # Main application component
+│   ├── index.css                    # Global CSS styles
+│   └── main.jsx                     # Application entry point
+├── .env                             # Environment variables
+├── .gitignore                       # Git ignore rules
+├── eslint.config.js                 # ESLint configuration
+├── readme.md                
+└── index.html                       # HTML entry point
+
 ```
 
 ## 🚀 Getting Started
