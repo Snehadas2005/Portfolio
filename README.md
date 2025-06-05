@@ -2,6 +2,13 @@
 
 A modern, interactive portfolio website showcasing Sneha Das's web development skills, experience, and projects.
 
+## Images
+![Image](https://github.com/user-attachments/assets/02a9dafb-f8c6-4e10-9cea-4655979ca8db)
+
+![Image](https://github.com/user-attachments/assets/ae7bf0d7-d1ff-4f38-bff2-4a5ffceac443)
+
+![Image](https://github.com/user-attachments/assets/01d6dbd9-34fe-4b58-814d-a7c0a1e0e9e2)
+
 ## 🌟 Features
 
 * **Interactive 3D Elements** - Engaging Three.js models throughout the site
@@ -18,7 +25,6 @@ A modern, interactive portfolio website showcasing Sneha Das's web development s
 * **3D Rendering**: Three.js with React Three Fiber & Drei
 * **Animations**: GSAP with ScrollTrigger
 * **Form Handling**: EmailJS
-* **Deployment**: [Deployment platform]
 
 ## 📋 Project Structure
 
